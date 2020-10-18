@@ -1,3 +1,13 @@
+
+const http = require('http');
+const app = require('./api/app');
+
+const port = process.env.PORT || 9090;
+
+const server = http.createServer(app);
+
+server.listen(port);
+
 const express = require('express');//express framework
 const app = express();
 
@@ -296,3 +306,4 @@ app.post('/api/users', function (req, res) {
 app.listen(9090, () => {   //listen to port 9090
     console.log("server is runnig.")
 })
+
