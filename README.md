@@ -12,5 +12,8 @@ Next run the postman test cases.
 
 The test case instances will be checked in related to the api and postman will indicate the number of test cases passed.
 
+## Tech Stack
+* nodejs
+* express.js
 
 
